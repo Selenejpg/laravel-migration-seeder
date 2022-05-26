@@ -9,7 +9,9 @@
     <div class="">
         <div class="col p-3 card" style="width: 18rem;">
             <div class="card-body">
+
                 <h4 class="card-title text-center mb-4">{{$train -> azienda}}</h4>
+                <p class="card-text">Data viaggio: {{$train -> data_viaggio}}</p>
                 <p class="card-text">Codice treno: {{$train -> codice_treno}}</p>
                 <p class="card-text">In partenza da: {{$train -> stazione_partenza}}</p>
                 <p class="card-text">Diretto a: {{$train -> stazione_arrivo}}</p>
