@@ -4,8 +4,6 @@
 
 <div class="d-flex mt-3 justify-content-center row row-cols-4 g-3">
 
-    @if ($trains -> data_viaggio == "2022-05-26")
-
     @forelse ($trains as $key => $train)
     
     <div class="">
@@ -33,8 +31,6 @@
         <h2>Non ci sono treni da mostrare</h2>
 
     @endforelse
-
-    @endif
 
 </div>
 
